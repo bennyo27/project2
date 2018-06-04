@@ -19,6 +19,7 @@ body {
   color: white;
   height: 80px;
 }
+
 .selections {
   font-size: 18px;
 }
@@ -136,8 +137,8 @@ input[type=search]:focus {
   height: 300px;
   color: white;
   padding-top: 30px;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .parallax {
@@ -211,7 +212,13 @@ input[type=checkbox] {
   padding-bottom: 8px;
 }
 
-/*Below is for slideshow*/
+img {
+  vertical-align: middle;
+  max-height: 650px;
+  object-fit: cover;
+}
+
+/*Below is CSS for slideshow*/
 
 * {
   box-sizing: border-box;
@@ -225,9 +232,10 @@ body {
   display: none;
 }
 
-img {
+.slide {
   vertical-align: middle;
   max-height: 650px;
+  min-height: 550px;
   object-fit: cover;
 }
 
