@@ -125,11 +125,8 @@ input[type=search]:focus {
   grid-area: banner;
 }
 
-.main {
-  width: 700px;
-  margin: auto;
-  margin-top: none;
-  background-color: #3e3e42;
+.main{
+  height: auto;
 }
 
 .mainText {
@@ -139,12 +136,14 @@ input[type=search]:focus {
   padding-top: 30px;
   padding-left: 20px;
   padding-right: 20px;
+  background-color: #3e3e42;
+  width: auto;
 }
 
 .parallax {
   grid-area: parallax;
   background-image: url("invImage.jpg");
-  height: 500px;
+  height: auto;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -152,6 +151,7 @@ input[type=search]:focus {
   display: flex;
   justify-content: center;
   align-items: center;
+  width: auto;
 }
 
 /*Start of CCSS for Newsletter*/
